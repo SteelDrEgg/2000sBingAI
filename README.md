@@ -1,6 +1,6 @@
 <div align="center">
 
-## Bing AI 2000s
+# Bing AI 2000s
 
 [comment]: <> (<img src="resources/bot.png"/>)
 [comment]: <> (<br>)
