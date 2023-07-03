@@ -2,7 +2,7 @@
 
 <div align="center">
 <img src="resources/bot.png"/>
-
+<br>
 <figcaption>Microsoft</figcaption>
 <hr>
 
