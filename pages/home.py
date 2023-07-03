@@ -1,6 +1,7 @@
 import asyncio
 import tkinter as tk
 from tkinter import ttk
+from tkinter import messagebox
 
 
 class chatDisplay():
@@ -104,6 +105,12 @@ class home():
                                                                 font=('Lucida Console', 13),
                                                                 anchor="nw")
 
+    def draw_topToolBar(self):
+        self.app.mainTopBar.create_text(10, 3, text="About", fill="#323232", font=('Lucida Console', 13), anchor="nw")
+        self.app.mainTopBar.create_line(60, 0, 60, 30, fill="#97a0a5", width=1)
+        self.app.mainTopBar.bind("<ButtonPress-1>", lambda event: tk.messagebox.showinfo("showinfo",
+                                                                                         "disclaimer: Just a Tkinter Practice") if event.x < 60 else None)
+
     def updateBottomBar(self, progressing: bool, status):
         if progressing:
             self.pb.start(interval=50)
@@ -119,8 +126,10 @@ class home():
         ttk.Label(preferences, width=self.app.rwidth - 779).grid(column=0, row=0)
 
         self.draw_bottomToolbar()
+        self.draw_topToolBar()
+
         self.start = ttk.Button(preferences, text="go")
-        self.start.grid(column=0, row=2)
+        # self.start.grid(column=0, row=2)
 
         self.app.chatStyle = "Creative"
         # Menu

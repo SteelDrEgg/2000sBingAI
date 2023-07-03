@@ -160,9 +160,6 @@ class winView():
             topToolBar.place(x=3, y=3)
             bottomToolBar = tk.Canvas(view, background="#ebe9d7", highlightthickness=0, width=self.rwidth - 12, height=19.5)
             bottomToolBar.place(x=3, y=wrapperHeight + 7)
-            # createGradient(bottomToolBar, position_x=0, position_y=-1, width=self.rwidth - 10.5, height=3,
-            #                startRGB=rgb(206, 205, 187),
-            #                endRGB=rgb(235, 233, 215), direction="v", definition=5)
             ttk.Separator(view, orient='horizontal').place(x=2, y=wrapperHeight + 7, width=self.rwidth - 10.5, height=0)
 
             # Main Wrapper
