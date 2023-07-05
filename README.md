@@ -19,6 +19,8 @@ wget https://github.com/SteelDrEgg/2000sBingAI/archive/refs/heads/master.zip
 unzip master.zip
 ```
 
+> For those in regions where login is needed for Bing chat, checkout [profect EdgeGPT](https://github.com/acheong08/EdgeGPT#collect-cookies) for how to get Cookie, then modify line 9 in `bingbot.py` **OR** star this project to let me know someone cares about it.
+
 cd into directory then download dependencies
 ```shell
 pip3 install -r requirements.txt
