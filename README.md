@@ -13,23 +13,25 @@
 
 ### How to use
 
-Download source code and unzip
-```shell
-wget https://github.com/SteelDrEgg/2000sBingAI/archive/refs/heads/master.zip
-unzip master.zip
-```
+1. Download source code and unzip
+  ```shell
+  wget https://github.com/SteelDrEgg/2000sBingAI/archive/refs/heads/master.zip
+  unzip master.zip
+  ```
 
-> For those in regions where login is needed for Bing chat, checkout [profect EdgeGPT](https://github.com/acheong08/EdgeGPT#collect-cookies) for how to get Cookie, then modify line 9 in `bingbot.py` **OR** star this project to let me know someone cares about it.
+> For those in regions where login is needed for Bing chat, checkout [profect EdgeGPT](https://github.com/acheong08/EdgeGPT#collect-cookies) for how to get Cookie, then modify line 9 in `bingbot.py`
+> **OR**
+> Star this project to let me know someone cares about it.
 
-cd into directory then download dependencies
-```shell
-pip3 install -r requirements.txt
-```
+2. cd into directory then download dependencies
+  ```shell
+  pip3 install -r requirements.txt
+  ```
 
-Run
-```shell
-python3 main.py
-```
+3. Run
+  ```shell
+  python3 main.py
+  ```
 
 ### Why I do this?
 
